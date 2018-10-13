@@ -17,7 +17,16 @@
             </intent-filter>
         </activity>
         <activity android:name=".Login" />
-        <activity android:name=".Signup"></activity>
+        <activity android:name=".Signup" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".JobPost" />
+        <activity android:name=".Fr_About" />
+        <activity android:name=".FrProfile" />
+        <activity android:name=".FrFeedback" />
+        <activity android:name=".Success"></activity>
     </application>
 
 </manifest>

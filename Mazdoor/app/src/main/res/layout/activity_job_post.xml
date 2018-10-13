@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/lay_dwn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <EditText
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:drawablePadding="5dp"
+                android:ems="10"
+                android:hint="Title"
+                android:inputType="textPersonName"
+                android:lines="1"
+                android:maxLines="1"
+                android:background="@drawable/wholeside_border"
+                android:layout_marginBottom="10dp"
+                android:textSize="12sp"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"/>
+
+            <EditText
+                android:id="@+id/skill"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:drawablePadding="5dp"
+                android:ems="10"
+                android:maxLength="140"
+                android:hint="Skills Required"
+                android:background="@drawable/wholeside_border"
+                android:layout_marginBottom="10dp"
+                android:textSize="12sp"
+                android:lines="4"
+                android:maxLines="4"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+
+            <EditText
+                android:id="@+id/rate"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:drawablePadding="5dp"
+                android:drawableRight="@mipmap/email_icon"
+                android:ems="10"
+                android:hint="Per Hourly Rate 0.00 RS"
+                android:inputType="number"
+                android:maxLength="3"
+                android:background="@drawable/wholeside_border"
+                android:layout_marginBottom="10dp"
+                android:textSize="12sp"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/Location"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:maxLength="25"
+                    android:hint="Location"
+                    android:background="@drawable/wholeside_border"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="12sp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    />
+
+
+                <EditText
+                    android:id="@+id/desic"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:drawablePadding="5dp"
+                    android:ems="10"
+                    android:hint="Description"
+                    android:inputType="text"
+                    android:maxLength="140"
+                    android:background="@drawable/wholeside_border"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="12sp"
+                    android:lines="4"
+                    android:maxLines="4"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    />
+
+
+                <Button
+                    android:id="@+id/postMis"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/sample"
+                    android:text="Post Job"
+                    android:textColor="@color/white"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
