@@ -71,7 +71,7 @@
             android:layout_gravity="left">
             <ImageButton
                 android:id="@+id/paint"
-                android:layout_width="200dp"
+                android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:background="@drawable/bggreen"
                 android:src="@drawable/paint" />
